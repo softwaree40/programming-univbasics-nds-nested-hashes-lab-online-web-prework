@@ -32,11 +32,15 @@ end
 def aoh_update(aoh, row, key, new_value)
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
+<<<<<<< HEAD
   aoh[1][:name] = new_value
   
   return aoh
   
   
+=======
+  aoh[1][:name] = 'new_value'
+>>>>>>> 77a9345dbc53d39b2c50f79753a0ec601a9ef0e0
   
    
 end
